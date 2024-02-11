@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PlotTwist Utilitxy | Herramientas</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles-dado.css">
+</head>
+<body>
+    <div class="container">
+        <a href="./index.html">
+        <div class="sec-logo-inpage">
+            <img src="./imagenes/plottwist-logo.svg" alt="Logo Plot Twist" id="landing-logo-inpage">
+        <p id="logo-tag-inpage">utility app</p></div></a>
+
+        <div class="contador">
+            <h1>Puntos</h1>
+            <div class="display-sec">
+            <p class="display"><span id="puntos"></span></p>
+        </div>
+        <div class="sec-botones">
+            <button id="restar">-1</button>
+            <button id="sumar">+1</button>
+        </div>
+        <button id="tomar-escudo">Tomar Escudo</button>
+        <div id="sec-escudo">
+            <h2>Escudo</h2>
+            <div class="display-sec">
+            <p class="display-escudo"><span id="puntos-escudo"></span></p>
+        </div>
+        <div class="sec-botones">
+            <button id="restar-escudo">-1</button>
+            <button id="sumar-escudo">+1</button>
+        </div>
+        </div>
+        <button id="reset">Reiniciar Puntos</button>
+    </div>
+    <div class="dados">
+        <div class="game">
+            <div class="contenedor-dados">
+              <div id='dice1' class="dice dice-one">
+                <div id="dice-one-side-one" class='side one'>
+                  <div class="dot one-1"></div>
+                </div>
+                <div id="dice-one-side-two" class='side two'>
+                  <div class="dot two-1"></div>
+                  <div class="dot two-2"></div>
+                </div>
+                <div id="dice-one-side-three" class='side three'>
+                  <div class="dot three-1"></div>
+                  <div class="dot three-2"></div>
+                  <div class="dot three-3"></div>
+                </div>
+                <div id="dice-one-side-four" class='side four'>
+                  <div class="dot four-1"></div>
+                  <div class="dot four-2"></div>
+                  <div class="dot four-3"></div>
+                  <div class="dot four-4"></div>
+                </div>
+                <div id="dice-one-side-five" class='side five'>
+                  <div class="dot five-1"></div>
+                  <div class="dot five-2"></div>
+                  <div class="dot five-3"></div>
+                  <div class="dot five-4"></div>
+                  <div class="dot five-5"></div>
+                </div>
+                <div id="dice-one-side-six" class='side six'>
+                  <div class="dot six-1"></div>
+                  <div class="dot six-2"></div>
+                  <div class="dot six-3"></div>
+                  <div class="dot six-4"></div>
+                  <div class="dot six-5"></div>
+                  <div class="dot six-6"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id='roll'><button class="botonsote">Tira el Dado</button></div>
+    </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+<script src="./script-dados.js"></script>
+</html>
